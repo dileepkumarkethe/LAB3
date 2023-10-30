@@ -20,7 +20,9 @@ h1 {
     margin-bottom: 20px;
     text-align: center;
 }
-
+.bill-total{
+    width:100%;
+}
 label {
     width: 100px;
     display: inline-block;
