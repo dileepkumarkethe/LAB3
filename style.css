@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.calculator {
+    width: 300px;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+label {
+    width: 100px;
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.label-inline {
+    display: inline-block;
+    width: 150px; 
+    margin-right: 10px; 
+    text-align: right; 
+}
+
+
+#tip-calculator-label {
+    font-weight: bold; 
+}
+
+
+input[type="text"],
+input[type="range"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+input[type="text"]:disabled {
+    background-color: #e0e0e0;
+}
